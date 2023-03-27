@@ -54,34 +54,6 @@
 % 载入参考文献数据库（注意不要省略“.bib”）。
 \addbibresource{thesis.bib}
 
-% 普通用户可删除此段，并相应地删除 chap/*.tex 中的
-% “\pkuthssffaq % 中文测试文字。”一行。
-\usepackage{color}
-\def\pkuthssffaq{%
-	\emph{\textcolor{red}{pkuthss 文档模版最常见问题：}}
-
-	\texttt{\string\cite}、\texttt{\string\parencite} %
-	和 \texttt{\string\supercite} 三个命令分别产生%
-	未格式化的、带方括号的和上标且带方括号的引用标记：%
-	\cite{test-en}，\parencite{test-zh}、\supercite{test-en, test-zh}。
-
-	若格式审查时提示字号或其它格式细节问题，请启用 pkuthss 的 \texttt{ugly}
-	选项，同时可以考虑启用 biblatex-caspervector 的 \texttt{ugly} 选项
-	或者换用 biblatex-gb7714-2015，详见 \texttt{thesis.tex} 中相关注释。
-
-	生成的 PDF 文件中标记链接的彩色框不会出现在打印版论文中。
-	如仍须去掉，可在 \texttt{thesis.tex} 导言区加入
-	\texttt{\string\hypersetup\string{hidelinks\string}}。
-
-	若要避免章末空白页，请在调用 pkuthss 文档类时加入 \texttt{openany} 选项。
-
-	如果编译时不出参考文献，
-	请参考 \texttt{texdoc pkuthss}“问题及其解决”一章
-	“上游宏包可能引起的问题”一节中关于 biber 的说明。
-
-	因无法假定用户使用哪种方式排版表格，用户须自行保证表格字号符合学校规定。%
-}
-
 \begin{document}
 	% 以下为正文之前的部分，默认不进行章节编号。
 	\frontmatter
