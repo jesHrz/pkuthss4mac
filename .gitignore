@@ -7,6 +7,12 @@
 *.bak
 *.synctex*
 *.out
+*.bcf
+*.fls
+*.fdb_latexmk
+*.run.*
+*.toc
+*.xdv
 tmp*
 
 .vscode
