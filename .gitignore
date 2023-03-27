@@ -1,0 +1,13 @@
+*.log
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.pdf
+*.bak
+*.synctex*
+*.out
+tmp*
+
+.vscode
+.DS_Store
